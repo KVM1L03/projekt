@@ -2,9 +2,10 @@ public class Users {
     private String name;
     private int age;
 
-    public Users(String name, int age) {
+    public Users(String name, int age, String address) {
         this.name = name;
         this.age = age;
+        this.address = address;
     }
 
     public String getName() {
